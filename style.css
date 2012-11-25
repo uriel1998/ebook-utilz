@@ -1,0 +1,68 @@
+/* You may notice that my CSS file is organized in a fairly straightforward and */
+/* static way.  This is intentional, folks.  You can do a LOT fancier - but I'm */
+/* operating under a KISS principle here. Otherwise it's too easy to have more  */
+/* than one style applying to any line and making troubleshooting difficult.    */
+/* My goal is portability and it NEVER distracting from the text. 		*/
+
+/* Put any additional fonts you REQUIRE here.  I recommend using additional fonts */
+/* only when you MUST; and always define a fallback.  Please note that if you have */
+/* the font in a sub-directory, you must define it properly in the src portion */
+
+/* Also ensure you have the rights to whatever fonts you are using. For example, */
+/* I contacted the HPLHS for express permission to use this font of theirs.  */
+@font-face {
+  font-family: Lovecraft Block;
+  font-weight: normal;
+  font-style: normal;
+  src: url("LovecBloHPLHS.otf") format("opentype");}
+
+
+body{margin-left:30px;margin-right:30px}
+/* default paragraph style.  Indented paragraph, small amount of space between */
+/* paragraphs. */
+p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;}
+/* Use this for ANY line you do not wish to have indented. */
+.first{text-indent:0in;margin-left:0in;}
+/* For citation (or any other hanging indent) */
+.cite{text-indent:-0.3in;margin-left:0.3in;}
+.toc{text-indent:0in;}
+.center{text-indent:0;margin-left:0;text-align:center;}
+/* Main big title - headers are all done in a sans font */
+.title{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:120%;margin-top:0.2in;margin-bottom:0.2in;}
+/* Secondary or subtitle */
+.title2{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:110%;margin-top:0.2in;margin-bottom:0.2in;}
+/* Tertiary Header, for in the body of the text. The 3l variant is for left justified */
+.title3{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:100%;margin-top:0.2in;margin-bottom:0.01in;}
+.title3l{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;font-weight: bold;font-size:100%;margin-top:0.2in;margin-bottom:0.01in;}
+
+/* Byline, two sizes to show how it's done. */
+.by{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;margin-top:0.2in;margin-bottom:0.2in;}
+.bysmall{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;margin-top:0.2in;margin-bottom:0.2in;font-size:80%;}
+
+
+/* Marked off in a different font, to separate the bio elements in an anthology */
+.bio{text-indent:0;font-family:"Verdana",Arial,sans-serif;font-size:90%;}
+/* Miscellaneous style elements */
+.blockquote{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;}
+/* blockquoted note - much like if there was a quoted note, but you don't want to use just  blockquote */
+.note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Trebuchet MS",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;}
+
+/* example of blockquoted note with a different font - note the fallback fonts */
+/* are still defined in the style.  Assume that the fallbacks will be used when designing! */
+/* .note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Lovecraft Block","Trebuchet MS",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;} */
+
+.right{text-align:right;}
+
+/* This is not always supported;  use sparingly. A full file break is the only */
+/* universally supported way to guarantee a pagebreak on all devices. */
+.pagebreak{text-indent:0;margin-left:0;text-align:center;page-break-before:always;}
+
+
+a {color: inherit; text-decoration: inherit; cursor: default;}
+a[href] { color: blue; text-decoration: underline; cursor: pointer;}
+/* If you wish to define your italics and bold via spans, you can do it here */
+.i {font-style: italic;}
+.b {font-weight: bold;}
+.u {text-decoration: underline;}
+.sup{ vertical-align: super;}
+.strike{text-decoration: line-through;}
