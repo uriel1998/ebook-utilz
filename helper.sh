@@ -5,7 +5,7 @@
 # set div width, then img width is to the div!
 
 #base html document for OEPBS files
-base="/home/USER/Vault/base.html"
+base="/home/USER/base.html"
 
 echo "What is this run for? [i]nitial, [c]ontent.opf, [t]oc.ncx, [s]pecial (e.g. TOC), [Q]uit?"
 echo "You are currently in $PWD,"
