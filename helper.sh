@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # CODE FOR DOING IMAGES
-# <div id="" width="100%" class="center"><img width="100" src="images/9780983263111.png" alt="divider"/></div>
+# <div id="" width="95%" class="center"><img width="95%" src="images/9780983263111.png" alt="divider"/></div>
 # set div width, then img width is to the div!
 
 #base html document for OEPBS files
@@ -54,7 +54,8 @@ case "$option" in
 			coverfile=$(echo "$ISBN.png")
 		fi
 		
-		echo '	<meta name="cover" content="images_'$coverfile'"/>' >> content.opf
+		#edited to ensure that cover shows on nooks, etc.
+		echo '	<meta name="cover" content="cover-image"/>' >> content.opf
 		echo '	<meta name="BISAC" content="BISACCODE HERE"/>' >> content.opf
 		echo '</metadata>' >> content.opf
 		echo '<manifest>' >> content.opf
@@ -77,28 +78,44 @@ case "$option" in
 			NUMBER=$[ ( $RANDOM % 900 )  + 1 ]
 			# necessary to get rid of extra stuff ...
 			imgfile=$(echo "$i" | /bin/sed -e 's/\.\/images\///g')
-			echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			if [ "$imgfile" = "$coverimage" ]; then
+				echo '	        <item id="cover-image" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			else
+				echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			fi
 		fi
 		done        
 		for i in ./images/*.jpg; do
 		if [ -f $i ];then
 			NUMBER=$[ ( $RANDOM % 900 )  + 1 ]
 			imgfile=$(echo "$i" | /bin/sed -e 's/\.\/images\///g')			
-			echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/jpeg" />' >> content.opf
+			if [ "$imgfile" = "$coverimage" ]; then
+				echo '	        <item id="cover-image" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			else
+				echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/jpeg" />' >> content.opf
+			fi
 		fi
 		done        
 		for i in ./images/*.jpeg; do
 		if [ -f $i ];then
 			NUMBER=$[ ( $RANDOM % 900 )  + 1 ]
 			imgfile=$(echo "$i" | /bin/sed -e 's/\.\/images\///g')			
-			echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/jpeg" />' >> content.opf
+			if [ "$imgfile" = "$coverimage" ]; then
+				echo '	        <item id="cover-image" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			else
+				echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/jpeg" />' >> content.opf
+			fi
 		fi
 		done        	
 		for i in ./images/*.gif; do
 		if [ -f $i ];then
 			NUMBER=$[ ( $RANDOM % 900 )  + 1 ]
 			imgfile=$(echo "$i" | /bin/sed -e 's/\.\/images\///g')			
-			echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/gif" />' >> content.opf
+			if [ "$imgfile" = "$coverimage" ]; then
+				echo '	        <item id="cover-image" href="images/'$imgfile'" media-type="image/png" />' >> content.opf
+			else
+				echo '	        <item id="i_'$imgfile'_'$NUMBER'" href="images/'$imgfile'" media-type="image/gif" />' >> content.opf
+			fi
 		fi
 		done        
 
@@ -113,6 +130,7 @@ case "$option" in
 		echo '</spine>' >> content.opf
 
 		echo '<guide>' >> content.opf
+		# This doesn't seem to matter as far as rendering the cover in nook previews, so hey....
 		echo '        <reference type="cover" title="Book Cover" href="images/'$coverfile'" />' >> content.opf
 	
 		# I suppose we could use the title trick (see below) to autofill, but...

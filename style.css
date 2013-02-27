@@ -10,16 +10,15 @@
 
 /* Also ensure you have the rights to whatever fonts you are using. For example, */
 /* I contacted the HPLHS for express permission to use this font of theirs.  */
-@font-face {
-  font-family: Lovecraft Block;
-  font-weight: normal;
-  font-style: normal;
-  src: url("LovecBloHPLHS.otf") format("opentype");}
+/* @font-face {  */
+/*  font-family: Lovecraft Block; */
+/*  font-weight: normal;  */
+/*  font-style: normal;   */ 
+/*  src: url("LovecBloHPLHS.otf") format("opentype");}  */
 
 
 body{margin-left:30px;margin-right:30px}
-/* default paragraph style.  Indented paragraph, small amount of space between */
-/* paragraphs. */
+/* default paragraph style.  Indented paragraph, small amount of space between paragraphs. */
 p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;}
 /* Use this for ANY line you do not wish to have indented. */
 .first{text-indent:0in;margin-left:0in;}
@@ -27,7 +26,13 @@ p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;mar
 .cite{text-indent:-0.3in;margin-left:0.3in;}
 .toc{text-indent:0in;}
 .center{text-indent:0;margin-left:0;text-align:center;}
-/* Main big title - headers are all done in a sans font */
+
+/* This divider class is so that you can have font items (like asterisks) as explicit dividers and find them easily. */
+.divider{text-indent:0;margin-left:0;text-align:center;font-weight:bold;}
+
+/* Titles */
+/* All titles are done in a sans font. */
+/* Main big title */
 .title{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:120%;margin-top:0.2in;margin-bottom:0.2in;}
 /* Secondary or subtitle */
 .title2{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:110%;margin-top:0.2in;margin-bottom:0.2in;}
