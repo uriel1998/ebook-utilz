@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="BookId" version="2.0">
+<metadata xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:opf="http://www.idpf.org/2007/opf">
+	<dc:title>Kicking the Habit and Other Stories</dc:title>
+	<dc:creator opf:file-as="Saus, Steven" opf:role="aut">Steven Saus</dc:creator>
+	<dc:subject>Short Stories</dc:subject>
+	<dc:description>WARNING: 
+This collection contains the following:  Zombies looking for love.  Robots looking for redemption.  Time traveling honeymooners.  Slaveowners summoning demons.  The last scion of an alien empire hiding in the Old West.  Vampires that don't sparkle.  Fairies that don't sing.  Other unnatural colors and flavors.
+Side effects may include:  emotion.
+</dc:description>
+	<dc:publisher>Pursued by Bears</dc:publisher>
+	<dc:date>2013-02-26</dc:date>
+	<dc:identifier id="BookId" opf:scheme="ISBN">9781939840004</dc:identifier>
+	<dc:language>en</dc:language>
+	<dc:rights>All rights reserved by publisher or author as applicable.</dc:rights>
+	<dc:relation>http://alliterationink.com</dc:relation>
+	<meta name="srp-usd" content="4.99"/>
+	<meta name="eISBN" content="9781939840004"/>
+	<meta name="cover" content="cover-image"/>
+</metadata>
+<manifest>
+	<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml"/>
+	<item id="style" href="style.css" media-type="text/css"/>
+		<item id="a_01" href="001.html" media-type="application/xhtml+xml"/>
+		<item id="a_02" href="002.html" media-type="application/xhtml+xml"/>
+		<item id="a_03" href="003.html" media-type="application/xhtml+xml"/>
+		<item id="a_04" href="005.html" media-type="application/xhtml+xml"/>
+		<item id="a_05" href="007.html" media-type="application/xhtml+xml"/>
+		<item id="a_06" href="009.html" media-type="application/xhtml+xml"/>
+		<item id="a_07" href="011.html" media-type="application/xhtml+xml"/>
+		<item id="a_08" href="013.html" media-type="application/xhtml+xml"/>
+		<item id="a_09" href="015.html" media-type="application/xhtml+xml"/>
+		<item id="a_010" href="017.html" media-type="application/xhtml+xml"/>
+		<item id="a_011" href="019.html" media-type="application/xhtml+xml"/>
+		<item id="a_012" href="021.html" media-type="application/xhtml+xml"/>
+		<item id="a_013" href="023.html" media-type="application/xhtml+xml"/>
+		<item id="a_014" href="025.html" media-type="application/xhtml+xml"/>
+		<item id="a_015" href="028.html" media-type="application/xhtml+xml"/>
+		<item id="a_016" href="031.html" media-type="application/xhtml+xml"/>
+		<item id="a_017" href="034.html" media-type="application/xhtml+xml"/>
+		<item id="a_018" href="036.html" media-type="application/xhtml+xml"/>
+		<item id="a_019" href="039.html" media-type="application/xhtml+xml"/>
+		<item id="a_020" href="042.html" media-type="application/xhtml+xml"/>
+		<item id="a_021" href="044.html" media-type="application/xhtml+xml"/>
+		<item id="a_022" href="047.html" media-type="application/xhtml+xml"/>
+		<item id="a_023" href="049.html" media-type="application/xhtml+xml"/>
+		<item id="a_024" href="051.html" media-type="application/xhtml+xml"/>
+		<item id="a_025" href="054.html" media-type="application/xhtml+xml"/>
+		<item id="a_026" href="056.html" media-type="application/xhtml+xml"/>
+		<item id="a_027" href="058.html" media-type="application/xhtml+xml"/>
+		<item id="a_028" href="060.html" media-type="application/xhtml+xml"/>
+		<item id="a_029" href="062.html" media-type="application/xhtml+xml"/>
+		<item id="a_030" href="065.html" media-type="application/xhtml+xml"/>
+		<item id="a_031" href="068.html" media-type="application/xhtml+xml"/>
+		<item id="a_032" href="070.html" media-type="application/xhtml+xml"/>
+		<item id="a_033" href="072.html" media-type="application/xhtml+xml"/>
+		<item id="a_034" href="073.html" media-type="application/xhtml+xml"/>
+		<item id="a_035" href="074.html" media-type="application/xhtml+xml"/>
+		<item id="a_036" href="075.html" media-type="application/xhtml+xml"/>
+	        <item id="cover-image" href="images/9781939840004.jpg" media-type="image/jpeg" />
+	        <item id="i_img1.png_833" href="images/img1.png" media-type="image/png" />
+	        <item id="i_img3.jpg_855" href="images/img3.jpg" media-type="image/jpeg" />
+	        <item id="i_img4.jpg_713" href="images/img4.jpg" media-type="image/jpeg" />
+	        <item id="i_img5.jpg_121" href="images/img5.jpg" media-type="image/jpeg" />
+</manifest>
+<spine toc="ncx">
+	<itemref idref="a_01"/>
+	<itemref idref="a_02"/>
+	<itemref idref="a_03"/>
+	<itemref idref="a_04"/>
+	<itemref idref="a_05"/>
+	<itemref idref="a_06"/>
+	<itemref idref="a_07"/>
+	<itemref idref="a_08"/>
+	<itemref idref="a_09"/>
+	<itemref idref="a_010"/>
+	<itemref idref="a_011"/>
+	<itemref idref="a_012"/>
+	<itemref idref="a_013"/>
+	<itemref idref="a_014"/>
+	<itemref idref="a_015"/>
+	<itemref idref="a_016"/>
+	<itemref idref="a_017"/>
+	<itemref idref="a_018"/>
+	<itemref idref="a_019"/>
+	<itemref idref="a_020"/>
+	<itemref idref="a_021"/>
+	<itemref idref="a_022"/>
+	<itemref idref="a_023"/>
+	<itemref idref="a_024"/>
+	<itemref idref="a_025"/>
+	<itemref idref="a_026"/>
+	<itemref idref="a_027"/>
+	<itemref idref="a_028"/>
+	<itemref idref="a_029"/>
+	<itemref idref="a_030"/>
+	<itemref idref="a_031"/>
+	<itemref idref="a_032"/>
+	<itemref idref="a_033"/>
+	<itemref idref="a_034"/>
+	<itemref idref="a_035"/>
+	<itemref idref="a_036"/>
+</spine>
+<guide>
+        <reference type="toc" title="Table of Contents" href="005.html" />
+        <reference type="copyright-page" title="Copyright Page" href="003.html" />
+</guide>
+</package>
