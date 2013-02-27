@@ -1,0 +1,167 @@
+SYMBOLS
+ " &#34; &quot;  quotation mark  
+ ' &#39; &apos; apostrophe
+ & &#38; &amp; ampersand 
+ < &#60; &lt;  less-than 
+ > &#62; &gt;  greater-than  
+ ¡ &#161;  &iexcl; inverted exclamation mark 
+ ¢ &#162;  &cent;  cent  
+ £ &#163;  &pound; pound 
+ ¥ &#165;  &yen; yen 
+ § &#167;  &sect;  section 
+ © &#169;  &copy;  copyright 
+ ® &#174;  &reg; registered trademark  
+ ˜ &#732;  &tilde; small tilde 
+ – &#8211; &ndash; en dash 
+ — &#8212; &mdash; em dash 
+ ‘ &#8216; &lsquo; left single quotation mark  
+ ’ &#8217; &rsquo; right single quotation mark 
+ “ &#8220; &ldquo; left double quotation mark  
+ ” &#8221; &rdquo; right double quotation mark 
+ † &#8224; &dagger;  dagger  
+ ‡ &#8225; &Dagger;  double dagger 
+ • &#8226; &bull;  bullet  
+ … &#8230; &hellip;  horizontal ellipsis 
+ € &#8364; &euro;  euro  
+ ™ &#8482; &trade; trademark 
+
+MATHS
+ °  &#176;  &deg; degree  
+ ±  &#177;  &plusmn;  plus-or-minus  
+ µ  &#181;  &micro; micro 
+ ¼  &#188;  &frac14;  fraction 1/4  
+ ½  &#189;  &frac12;  fraction 1/2  
+ ¾  &#190;  &frac34;  fraction 3/4  
+ ×  &#215;  &times; multiplication  
+ ÷  &#247;  &divide;  division  
+ − &#8722; &minus; minus 
+ ∗ &#8727; &lowast;  lowast  
+ √ &#8730; &radic; square root 
+ ∞ &#8734; &infin; infinity  
+ ∼ &#8764; &sim; similar to  
+ ≈ &#8776; &asymp; almost equal  
+ ≠ &#8800; &ne;  not equal 
+ ≤ &#8804; &le;  less or equal 
+ ≥ &#8805; &ge;  greater or equal  
+ ϑ &#977;  &thetasym;  theta symbol  
+ ϒ &#978;  &upsih; upsilon symbol  
+ ϖ &#982;  &piv; pi symbol 
+
+ACCENTS
+ À  &#192;  &Agrave;  capital a, grave accent 
+ Á  &#193;  &Aacute;  capital a, acute accent 
+ Â  &#194;  &Acirc; capital a, circumflex 
+ Ã  &#195;  &Atilde;  capital a, tilde  
+ Ä  &#196;  &Auml;  capital a, umlaut mark  
+ Æ  &#198;  &AElig; capital ae  
+ à  &#224;  &agrave;  small a, grave accent 
+ á  &#225;  &aacute;  small a, acute accent 
+ â  &#226;  &acirc; small a, circumflex accent  
+ ã  &#227;  &atilde;  small a, tilde  
+ å  &#228;  &auml;  small a, umlaut mark  
+ å  &#229;  &aring; small a, ring 
+ æ  &#230;  &aelig; small ae  
+ È  &#200;  &Egrave;  capital e, grave accent 
+ É  &#201;  &Eacute;  capital e, acute accent 
+ Ê  &#202;  &Ecirc; capital e, circumflex 
+ Ë  &#203;  &Euml;  capital e, umlaut mark  
+ è  &#232;  &egrave;  small e, grave accent 
+ é  &#233;  &eacute;  small e, acute accent 
+ ê  &#234;  &ecirc; small e, circumflex accent  
+ ë  &#235;  &euml;  small e, umlaut mark  
+ Ì  &#204;  &Igrave;  capital i, grave accent 
+ Í  &#205;  &Iacute;  capital i, acute accent 
+ Î  &#206;  &Icirc; capital i, circumflex 
+ Ï  &#207;  &Iuml;  capital i, umlaut mark  
+ ì  &#236;  &igrave;  small i, grave accent 
+ í  &#237;  &iacute;  small i, acute accent 
+ î  &#238;  &icirc; small i, circumflex accent  
+ ï  &#239;  &iuml;  small i, umlaut mark  
+ Ð  &#208;  &ETH; capital eth, Icelandic  
+ ð  &#240;  &eth; small eth, Icelandic  
+ Ñ  &#209;  &Ntilde;  capital n, tilde  
+ ñ  &#241;  &ntilde;  small n, tilde  
+ Ò  &#210;  &Ograve;  capital o, grave accent 
+ Ó  &#211;  &Oacute;  capital o, acute accent 
+ Ô  &#212;  &Ocirc; capital o, circumflex 
+ Õ  &#213;  &Otilde;  capital o, tilde  
+ Ö  &#214;  &Ouml;  capital o, umlaut mark  
+ Ø  &#216;  &Oslash;  capital o, slash  
+ Œ  &#338;  &OElig; capital ligature OE 
+ ò  &#242;  &ograve;  small o, grave accent 
+ ó  &#243;  &oacute;  small o, acute accent 
+ ô  &#244;  &ocirc; small o, circumflex accent  
+ õ  &#245;  &otilde;  small o, tilde  
+ ö  &#246;  &ouml;  small o, umlaut mark  
+ ø  &#248;  &oslash;  small o, slash  
+ œ  &#339;  &oelig; small ligature oe 
+ Š  &#352;  &Scaron;  capital S with caron  
+ š  &#353;  &scaron;  small S with caron  
+ Ù  &#217;  &Ugrave;  capital u, grave accent 
+ Ú  &#218;  &Uacute;  capital u, acute accent 
+ Û  &#219;  &Ucirc; capital u, circumflex 
+ Ü  &#220;  &Uuml;  capital u, umlaut mark  
+ ù  &#249;  &ugrave;  small u, grave accent 
+ ú  &#250;  &uacute;  small u, acute accent 
+ û  &#251;  &ucirc; small u, circumflex accent  
+ ü  &#252;  &uuml;  small u, umlaut mark  
+ Ý  &#221;  &Yacute;  capital y, acute accent 
+ ý  &#253;  &yacute;  small y, acute accent 
+ Ÿ  &#376;  &Yuml;  capital Y with diaeres  
+ ÿ  &#255;  &yuml;  small y, umlaut mark  
+ Þ  &#222;  &THORN; capital THORN, Icelandic  
+ þ  &#254;  &thorn; small thorn, Icelandic  
+ ß  &#223;  &szlig; small sharp s, German 
+ ç  &#231;  &ccedil;  small c, cedilla  
+ ƒ  &#402;  &fnof;  f with hook 
+
+GREEK 
+ Α  &#913;  &Alpha; Alpha 
+ Β  &#914;  &Beta;  Beta  
+ Γ  &#915;  &Gamma; Gamma 
+ Δ  &#916;  &Delta; Delta 
+ Ε  &#917;  &Epsilon; Epsilon 
+ Ζ  &#918;  &Zeta;  Zeta  
+ Η  &#919;  &Eta; Eta 
+ Θ  &#920;  &Theta; Theta 
+ Ι  &#921;  &Iota;  Iota  
+ Κ  &#922;  &Kappa; Kappa 
+ Λ  &#923;  &Lambda;  Lambda  
+ Μ  &#924;  &Mu;  Mu  
+ Ν  &#925;  &Nu;  Nu  
+ Ξ  &#926;  &Xi;  Xi  
+ Ο  &#927;  &Omicron; Omicron 
+ Π  &#928;  &Pi;  Pi  
+ Ρ  &#929;  &Rho; Rho 
+ Σ  &#931;  &Sigma; Sigma 
+ Τ  &#932;  &Tau; Tau 
+ Υ  &#933;  &Upsilon; Upsilon 
+ Φ  &#934;  &Phi; Phi 
+ Χ  &#935;  &Chi; Chi 
+ Ψ  &#936;  &Psi; Psi 
+ Ω  &#937;  &Omega; Omega            
+ α  &#945;  &alpha; alpha 
+ β  &#946;  &beta;  beta  
+ γ  &#947;  &gamma; gamma 
+ δ  &#948;  &delta; delta 
+ ε  &#949;  &epsilon; epsilon 
+ ζ  &#950;  &zeta;  zeta  
+ η  &#951;  &eta; eta 
+ θ  &#952;  &theta; theta 
+ ι  &#953;  &iota;  iota  
+ κ  &#954;  &kappa; kappa 
+ λ  &#955;  &lambda;  lambda  
+ μ  &#956;  &mu;  mu  
+ ν  &#957;  &nu;  nu  
+ ξ  &#958;  &xi;  xi  
+ ο  &#959;  &omicron; omicron 
+ π  &#960;  &pi;  pi  
+ ρ  &#961;  &rho; rho 
+ ς  &#962;  &sigmaf;  sigmaf  
+ σ  &#963;  &sigma; sigma 
+ τ  &#964;  &tau; tau 
+ υ  &#965;  &upsilon; upsilon 
+ φ  &#966;  &phi; phi 
+ χ  &#967;  &chi; chi 
+ ψ  &#968;  &psi; psi 
+ ω  &#969;  &omega; omega 
