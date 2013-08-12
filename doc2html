@@ -81,6 +81,7 @@ function process_filetypes {
 		# uncomment these to get the error log and other temp steps back
 		rm -f $BASE.err
 		rm -f $BASE.htm
+		rm -f $BASE.ht4		
 		rm -f $BASE.ht3
 		rm -f $BASE.ht2
 		rm -f $BASE.ht1
