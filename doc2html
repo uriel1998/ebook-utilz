@@ -69,10 +69,11 @@ function process_filetypes {
 			# note the sed line at the end that removes the class descriptors and language descriptors
 			tidy -q -config $CONFIG -f $to/$BASE.err -i $to/$BASE.ht2 | sed 's/ class="[^>]*"//g' | sed 's/ lang="[^>]*">/>/g' > $to/$BASE.ht3
 			# fix smart quotes part two - converting straight quotes to smart quotes.  This will get a LOT of them.
-			cat $BASE.ht3 | sed 's|\&quot; |\&rdquo; |g' | sed 's| \&quot;| \&ldquo;|g' | sed 's|\&quot;<|\&rdquo;<|g' | sed 's|>\&quot;|>\&ldquo;|g' | sed "s|'|\&rsquo;|g" > $BASE.htm4
+			cat $BASE.ht3 | sed 's|\&quot; |\&rdquo; |g' | sed 's| \&quot;| \&ldquo;|g' | sed 's|\&quot;<|\&rdquo;<|g' | sed 's|>\&quot;|>\&ldquo;|g' | sed "s|'|\&rsquo;|g" > $BASE.ht4
 			
 			# Note - This uses the base.html file included in the repository to format it into full html pages.
-			sed 13q /home/steven/Vault/base.html > $BASE.html | cat $BASE.ht3 >> $BASE.html |  sed '$!N;$!D' /home/steven/Vault/base.html >> $BASE.html
+			sed 13q /home/steven/Vault/base.html > $BASE.html | echo " " >> $BASE.html | cat $BASE.ht4 >> $BASE.html | echo " </body>" >> $BASE.html | echo "</html>" >> $BASE.html
+			
 		fi
 		if [ "$changed" == "1" ]; then
 			changed=0;
@@ -81,8 +82,8 @@ function process_filetypes {
 		# uncomment these to get the error log and other temp steps back
 		rm -f $BASE.err
 		rm -f $BASE.htm
-		rm -f $BASE.ht4		
-		rm -f $BASE.ht3
+#		rm -f $BASE.ht4		
+#		rm -f $BASE.ht3
 		rm -f $BASE.ht2
 		rm -f $BASE.ht1
 	done
