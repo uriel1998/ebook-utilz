@@ -67,7 +67,7 @@ function process_filetypes {
 			# Fixes smart quotes part one  - changing existing to HTML
 			cat $BASE.ht1 | sed 's|”|\&rdquo;|g' | sed 's|“|\&ldquo;|g' | sed 's|’|\&rsquo;|g' > $BASE.ht2
 			# note the sed line at the end that removes the class descriptors and language descriptors
-			tidy -q -config $CONFIG -f $to/$BASE.err -i $to/$BASE.ht2 | sed 's/ class="c[0-9]*"//g' | sed 's/ lang="[^>]*">/>/g' > $to/$BASE.ht3
+			tidy -q -config $CONFIG -f $to/$BASE.err -i $to/$BASE.ht2 | sed 's/ class="[^>]*"//g' | sed 's/ lang="[^>]*">/>/g' > $to/$BASE.ht3
 			# fix smart quotes part two - converting straight quotes to smart quotes.  This will get a LOT of them.
 			cat $BASE.ht3 | sed 's|\&quot; |\&rdquo; |g' | sed 's| \&quot;| \&ldquo;|g' | sed 's|\&quot;<|\&rdquo;<|g' | sed 's|>\&quot;|>\&ldquo;|g' | sed 's|’|\&rsquo;|g' > $BASE.html
 		fi
