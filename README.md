@@ -4,7 +4,7 @@ ebook-utilz
 Utilities I use for ePub Creation  YMMV.
 
 ###doc2html
-This will use OpenOffice and/or LibreOffice to produce pretty darn clean HTML at the backend, fit for our use with ePub.  Uses HTMLTidy and some specific SED expressions to smarten (yes, smarten) your quotes near-automagically.
+This will use OpenOffice and/or LibreOffice to produce pretty darn clean HTML at the backend, fit for our use with ePub.  Uses HTMLTidy and some specific SED expressions to smarten (yes, smarten) your quotes near-automagically.  It also embeds it into the base.html included in this repository.
 
 ###helper.sh
 It helps us, it does.  Run in your OEPBS directory.
