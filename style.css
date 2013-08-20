@@ -16,10 +16,17 @@
 /*  font-style: normal;   */ 
 /*  src: url("LovecBloHPLHS.otf") format("opentype");}  */
 
+@font-face {
+  font-family: "GentiumBookBasic";
+  font-weight: normal;
+  font-style: normal;
+  src: url("GentiumBookBasic.otf") format("opentype");}
 
-body{margin-left:30px;margin-right:30px}
-/* default paragraph style.  Indented paragraph, small amount of space between paragraphs. */
-p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;}
+body{margin-left:30px;margin-right:30px;font-family:"GentiumBookBasic",serif;}
+/* default paragraph style.  Indented paragraph, small amount of space between */
+/* paragraphs. */
+
+p{text-indent:0.3in;font-family:"GentiumBookBasic",serif;font-size:100%;line-height:120%;margin:0.06in 0 0.06in 0;}
 /* Use this for ANY line you do not wish to have indented. */
 .first{text-indent:0in;margin-left:0in;}
 /* For citation (or any other hanging indent) */
@@ -27,13 +34,12 @@ p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;mar
 .toc{text-indent:0in;}
 .center{text-indent:0;margin-left:0;text-align:center;}
 
-/* This divider class is so that you can have font items (like asterisks) as explicit dividers and find them easily. */
-.divider{text-indent:0;margin-left:0;text-align:center;font-weight:bold;}
-
 /* Titles */
 /* All titles are done in a sans font. */
 /* Main big title */
-.title{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:120%;margin-top:0.2in;margin-bottom:0.2in;}
+
+.title{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin:0.3in 0 0.2in 0;text-align:center;font-weight: bold;font-size:150%;}
+.title_right{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:right;font-weight: bold;font-size:120%;margin-top:0.2in;margin-bottom:0.3in;}
 /* Secondary or subtitle */
 .title2{font-family:"Verdana",Arial,sans-serif;text-indent:0;margin-left:0;text-align:center;font-weight: bold;font-size:110%;margin-top:0.2in;margin-bottom:0.2in;}
 /* Tertiary Header, for in the body of the text. The 3l variant is for left justified */
@@ -50,13 +56,14 @@ p{text-indent:0.3in;font-family:"Times New Roman",Times,serif;font-size:100%;mar
 /* Miscellaneous style elements */
 .blockquote{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;}
 /* blockquoted note - much like if there was a quoted note, but you don't want to use just  blockquote */
-.note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Trebuchet MS",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;}
+.note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Trebuchet MS",serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;}
 
 /* example of blockquoted note with a different font - note the fallback fonts */
 /* are still defined in the style.  Assume that the fallbacks will be used when designing! */
-/* .note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Lovecraft Block","Trebuchet MS",Times,serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;} */
+/* .note{text-indent:0.25in;margin-left:0.25in;margin-right:0.25in;font-family:"Lovecraft Block","Trebuchet MS",serif;font-size:100%;margin-top:0.01in;margin-bottom:0.01in;font-style: italic;} */
 
 .right{text-align:right;}
+.rightquote{text-align:right;margin-left:0.5in;}
 
 /* This is not always supported;  use sparingly. A full file break is the only */
 /* universally supported way to guarantee a pagebreak on all devices. */
