@@ -26,3 +26,14 @@ My base document when creating ePubs.
 
 ###content.opf
 An example content.opf
+
+##ReadMeFirst.md
+This is a file included with eBooks to help readers get the books onto their device(s).  Note - you'll want to have a pandoc template with these options (as explained [here](http://tex.stackexchange.com/questions/823/remove-ugly-borders-around-clickable-cross-references-and-hyperlinks/12408#12408).   
+<pre>\usepackage{xcolor}
+\definecolor{dark-red}{rgb}{0.4,0.15,0.15}
+\definecolor{dark-blue}{rgb}{0.15,0.15,0.4}
+\definecolor{medium-blue}{rgb}{0,0,0.5}
+\hypersetup{
+    colorlinks, linkcolor={dark-red},
+    citecolor={dark-blue}, urlcolor={medium-blue}
+}</pre>
