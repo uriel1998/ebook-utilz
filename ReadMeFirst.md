@@ -10,22 +10,22 @@ Please consider staying in touch with Alliteration Ink.  There are a few differe
 
 **Tumblr/News Page/RSS feed**: Our [RSS feed](http://feeds.feedburner.com/ainknews) is powered by [Tumblr](http://alliterationink.tumblr.com). Current events will often be posted here after they are posted to the e-mail list.
 
-**Social Media**: We've got G+, Twitter, and Facebook covered. These accounts may have additional posts and information related to publishing that is not directly related to Alliteration Ink.  I do my best to keep there from being too much duplication.
+**Social Media**: We've got [G+](http://plus.google.com/110081619674076089222), [Twitter](http://www.twitter.com/AlliterationInk), and [Facebook](https://www.facebook.com/AlliterationInk) covered. These accounts may have additional posts and information related to publishing that is not directly related to Alliteration Ink.  I do my best to keep there from being too much duplication.
 
 #Loading Your eBook
 
 ##Formats of eBooks
 There are three major types of eBook formats.
 
-**mobi or azw** - for the Amazon Kindle family of ereaders
-**epub** - for the Barnes & Noble Nook family, iPhone/iPad, Kobo readers, and most other ereaders
-**pdf** - Portable Document Format, best suited for computers and full-page tablets
+**mobi or azw** - for the Amazon Kindle family of ereaders  
+**epub** - for the Barnes & Noble Nook family, iPhone/iPad, Kobo readers, and most other ereaders  
+**pdf** - Portable Document Format, best suited for computers and full-page tablets  
 
 All titles published by Alliteration Ink have these three formats. Most titles that we distribute have all three as well. These files have NO DRM (Digital Restrictions Management), and you are entitled to move them freely among all your ereaders. 
 
 [Please see our page on piracy for questions about "sharing" these eBooks with other people.](http://alliterationink.com/piracy.html)
 
-##Reading the Files
+#Reading Your eBook
 If you don't have an eReader, you can download FREE programs online that read all these formats:
 
 [Amazon's free Kindle reading apps for PC, Mac, Blackberry, Android, and iPhone/iPad](http://www.amazon.com/gp/feature.html/ref=kcp_ipad_mkt_lnd?docId=1000493771)  
