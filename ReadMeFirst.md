@@ -1,4 +1,4 @@
-![](aink_logo.png "Alliteration Ink")\
+![](aink_logo.png "Alliteration Ink")  \
 
 Hi!  Thanks for purchasing an eBook directly from Alliteration Ink!  
 
