@@ -1,4 +1,4 @@
-![](aink_logo.png "Alliteration Ink")  \
+![](aink_logo.png "Alliteration Ink") \
 
 Hi!  Thanks for purchasing an eBook directly from Alliteration Ink!  
 
@@ -34,6 +34,8 @@ If you don't have an eReader, you can download FREE programs online that read al
 
 [Kobo's apps for iPad, iPhone, Android, PC, and Mac](http://www.kobobooks.com/apps)  
 
+[Google Play for ePub/PDF](http://play.google.com/books)
+
 [Calibre cross-platform eBook library management and reader software](http://calibre-ebook.com/)  
 
 [There are many other software choices for Android, iPhone, Windows Mobile and more. ](http://wiki.mobileread.com/wiki/EBook_software)  
@@ -61,6 +63,9 @@ Drag and drop the file into the Calibre window.  Calibre will add the item to yo
 
 ###iTunes 
 Add the ePub file to iTunes. Plug in your iPhone/Touch/iPad and click on the device. From the list of available items, choose the items to sync to your device. Sync the device. Open the iBook software and begin reading.
+
+###Google Play
+To get PDFs or ePubs into Play Books, you must use the [Google Play desktop site](http://play.google.com/books). If you aren't automatically in the books section, select "Books" on the left hand menu.  Then select "My Books" and then select "Upload".  You can upload books from either your computer or your Google Drive, and they will be synced across all your devices.
 
 ###Sony Reader Library
 Drag the file to the "Library" icon on the top of the list. Plug in your Sony reader. Locate the file in the list of books in your library and drag it to either the reader's memory, or any SD or Memorystick you have available. 
