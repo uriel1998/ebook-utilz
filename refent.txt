@@ -1,167 +1,507 @@
 SYMBOLS
- " &#34; &quot;  quotation mark  
- ' &#39; &apos; apostrophe
- & &#38; &amp; ampersand 
- < &#60; &lt;  less-than 
- > &#62; &gt;  greater-than  
- ¡ &#161;  &iexcl; inverted exclamation mark 
- ¢ &#162;  &cent;  cent  
- £ &#163;  &pound; pound 
- ¥ &#165;  &yen; yen 
- § &#167;  &sect;  section 
- © &#169;  &copy;  copyright 
- ® &#174;  &reg; registered trademark  
- ˜ &#732;  &tilde; small tilde 
- – &#8211; &ndash; en dash 
- — &#8212; &mdash; em dash 
- ‘ &#8216; &lsquo; left single quotation mark  
- ’ &#8217; &rsquo; right single quotation mark 
- “ &#8220; &ldquo; left double quotation mark  
- ” &#8221; &rdquo; right double quotation mark 
- † &#8224; &dagger;  dagger  
- ‡ &#8225; &Dagger;  double dagger 
- • &#8226; &bull;  bullet  
- … &#8230; &hellip;  horizontal ellipsis 
- € &#8364; &euro;  euro  
- ™ &#8482; &trade; trademark 
+ " &#34;	&quot;	quotation mark	
+ ' &#39;	&apos;	apostrophe
+ & &#38;	&amp;	ampersand 
+ < &#60;	&lt;	less-than 
+ > &#62;	&gt;	greater-than	
+ ¡ &#161;	&iexcl;	inverted exclamation mark 
+ ¢ &#162;	&cent;	cent	
+ £ &#163;	&pound;	pound 
+ ¥ &#165;	&yen;	yen 
+ § &#167;	&sect;	section 
+ © &#169;	&copy;	copyright 
+ ® &#174;	&reg;	registered trademark	
+ ˜ &#732;	&tilde;	small tilde 
+ – &#8211;	&ndash;	en dash 
+ — &#8212;	&mdash;	em dash 
+ ‘ &#8216;	&lsquo;	left single quotation mark	
+ ’ &#8217;	&rsquo;	right single quotation mark 
+ “ &#8220;	&ldquo;	left double quotation mark	
+ ” &#8221;	&rdquo;	right double quotation mark 
+ † &#8224;	&dagger;	dagger	
+ ‡ &#8225;	&Dagger;	double dagger 
+ • &#8226;	&bull;	bullet	
+ … &#8230;	&hellip;	horizontal ellipsis 
+ € &#8364;	&euro;	euro	
+ ™ &#8482;	&trade;	trademark 
 
 MATHS
- °  &#176;  &deg; degree  
- ±  &#177;  &plusmn;  plus-or-minus  
- µ  &#181;  &micro; micro 
- ¼  &#188;  &frac14;  fraction 1/4  
- ½  &#189;  &frac12;  fraction 1/2  
- ¾  &#190;  &frac34;  fraction 3/4  
- ×  &#215;  &times; multiplication  
- ÷  &#247;  &divide;  division  
- − &#8722; &minus; minus 
- ∗ &#8727; &lowast;  lowast  
- √ &#8730; &radic; square root 
- ∞ &#8734; &infin; infinity  
- ∼ &#8764; &sim; similar to  
- ≈ &#8776; &asymp; almost equal  
- ≠ &#8800; &ne;  not equal 
- ≤ &#8804; &le;  less or equal 
- ≥ &#8805; &ge;  greater or equal  
- ϑ &#977;  &thetasym;  theta symbol  
- ϒ &#978;  &upsih; upsilon symbol  
- ϖ &#982;  &piv; pi symbol 
+ °	&#176;	&deg;	degree	
+ ±	&#177;	&plusmn;	plus-or-minus  
+ µ	&#181;	&micro;	micro 
+ ¼	&#188;	&frac14;	fraction 1/4	
+ ½	&#189;	&frac12;	fraction 1/2	
+ ¾	&#190;	&frac34;	fraction 3/4	
+ ×	&#215;	&times;	multiplication	
+ ÷	&#247;	&divide;	division	
+ −	&#8722;	&minus;	minus 
+ ∗	&#8727;	&lowast;	lowast	
+ √	&#8730;	&radic;	square root 
+ ∞	&#8734;	&infin;	infinity	
+ ∼	&#8764;	&sim;	similar to	
+ ≈	&#8776;	&asymp;	almost equal	
+ ≠	&#8800;	&ne;	not equal 
+ ≤	&#8804;	&le;	less or equal 
+ ≥	&#8805;	&ge;	greater or equal	
+ ϑ	&#977;	&thetasym;	theta symbol	
+ ϒ	&#978;	&upsih;	upsilon symbol	
+ ϖ	&#982;	&piv;	pi symbol 
 
 ACCENTS
- À  &#192;  &Agrave;  capital a, grave accent 
- Á  &#193;  &Aacute;  capital a, acute accent 
- Â  &#194;  &Acirc; capital a, circumflex 
- Ã  &#195;  &Atilde;  capital a, tilde  
- Ä  &#196;  &Auml;  capital a, umlaut mark  
- Æ  &#198;  &AElig; capital ae  
- à  &#224;  &agrave;  small a, grave accent 
- á  &#225;  &aacute;  small a, acute accent 
- â  &#226;  &acirc; small a, circumflex accent  
- ã  &#227;  &atilde;  small a, tilde  
- å  &#228;  &auml;  small a, umlaut mark  
- å  &#229;  &aring; small a, ring 
- æ  &#230;  &aelig; small ae  
- È  &#200;  &Egrave;  capital e, grave accent 
- É  &#201;  &Eacute;  capital e, acute accent 
- Ê  &#202;  &Ecirc; capital e, circumflex 
- Ë  &#203;  &Euml;  capital e, umlaut mark  
- è  &#232;  &egrave;  small e, grave accent 
- é  &#233;  &eacute;  small e, acute accent 
- ê  &#234;  &ecirc; small e, circumflex accent  
- ë  &#235;  &euml;  small e, umlaut mark  
- Ì  &#204;  &Igrave;  capital i, grave accent 
- Í  &#205;  &Iacute;  capital i, acute accent 
- Î  &#206;  &Icirc; capital i, circumflex 
- Ï  &#207;  &Iuml;  capital i, umlaut mark  
- ì  &#236;  &igrave;  small i, grave accent 
- í  &#237;  &iacute;  small i, acute accent 
- î  &#238;  &icirc; small i, circumflex accent  
- ï  &#239;  &iuml;  small i, umlaut mark  
- Ð  &#208;  &ETH; capital eth, Icelandic  
- ð  &#240;  &eth; small eth, Icelandic  
- Ñ  &#209;  &Ntilde;  capital n, tilde  
- ñ  &#241;  &ntilde;  small n, tilde  
- Ò  &#210;  &Ograve;  capital o, grave accent 
- Ó  &#211;  &Oacute;  capital o, acute accent 
- Ô  &#212;  &Ocirc; capital o, circumflex 
- Õ  &#213;  &Otilde;  capital o, tilde  
- Ö  &#214;  &Ouml;  capital o, umlaut mark  
- Ø  &#216;  &Oslash;  capital o, slash  
- Œ  &#338;  &OElig; capital ligature OE 
- ò  &#242;  &ograve;  small o, grave accent 
- ó  &#243;  &oacute;  small o, acute accent 
- ô  &#244;  &ocirc; small o, circumflex accent  
- õ  &#245;  &otilde;  small o, tilde  
- ö  &#246;  &ouml;  small o, umlaut mark  
- ø  &#248;  &oslash;  small o, slash  
- œ  &#339;  &oelig; small ligature oe 
- Š  &#352;  &Scaron;  capital S with caron  
- š  &#353;  &scaron;  small S with caron  
- Ù  &#217;  &Ugrave;  capital u, grave accent 
- Ú  &#218;  &Uacute;  capital u, acute accent 
- Û  &#219;  &Ucirc; capital u, circumflex 
- Ü  &#220;  &Uuml;  capital u, umlaut mark  
- ù  &#249;  &ugrave;  small u, grave accent 
- ú  &#250;  &uacute;  small u, acute accent 
- û  &#251;  &ucirc; small u, circumflex accent  
- ü  &#252;  &uuml;  small u, umlaut mark  
- Ý  &#221;  &Yacute;  capital y, acute accent 
- ý  &#253;  &yacute;  small y, acute accent 
- Ÿ  &#376;  &Yuml;  capital Y with diaeres  
- ÿ  &#255;  &yuml;  small y, umlaut mark  
- Þ  &#222;  &THORN; capital THORN, Icelandic  
- þ  &#254;  &thorn; small thorn, Icelandic  
- ß  &#223;  &szlig; small sharp s, German 
- ç  &#231;  &ccedil;  small c, cedilla  
- ƒ  &#402;  &fnof;  f with hook 
+ À	&#192;	&Agrave;	capital a, grave accent 
+ Á	&#193;	&Aacute;	capital a, acute accent 
+ Â	&#194;	&Acirc;	capital a, circumflex 
+ Ã	&#195;	&Atilde;	capital a, tilde	
+ Ä	&#196;	&Auml;	capital a, umlaut mark	
+ Æ	&#198;	&AElig;	capital ae	
+ à	&#224;	&agrave;	small a, grave accent 
+ á	&#225;	&aacute;	small a, acute accent 
+ â	&#226;	&acirc;	small a, circumflex accent	
+ ã	&#227;	&atilde;	small a, tilde	
+ å	&#228;	&auml;	small a, umlaut mark	
+ å	&#229;	&aring;	small a, ring 
+ æ	&#230;	&aelig;	small ae	
+ È	&#200;	&Egrave;	capital e, grave accent 
+ É	&#201;	&Eacute;	capital e, acute accent 
+ Ê	&#202;	&Ecirc;	capital e, circumflex 
+ Ë	&#203;	&Euml;	capital e, umlaut mark	
+ è	&#232;	&egrave;	small e, grave accent 
+ é	&#233;	&eacute;	small e, acute accent 
+ ê	&#234;	&ecirc;	small e, circumflex accent	
+ ë	&#235;	&euml;	small e, umlaut mark	
+ Ì	&#204;	&Igrave;	capital i, grave accent 
+ Í	&#205;	&Iacute;	capital i, acute accent 
+ Î	&#206;	&Icirc;	capital i, circumflex 
+ Ï	&#207;	&Iuml;	capital i, umlaut mark	
+ ì	&#236;	&igrave;	small i, grave accent 
+ í	&#237;	&iacute;	small i, acute accent 
+ î	&#238;	&icirc;	small i, circumflex accent	
+ ï	&#239;	&iuml;	small i, umlaut mark	
+ Ð	&#208;	&ETH;	capital eth, Icelandic	
+ ð	&#240;	&eth;	small eth, Icelandic	
+ Ñ	&#209;	&Ntilde;	capital n, tilde	
+ ñ	&#241;	&ntilde;	small n, tilde	
+ Ò	&#210;	&Ograve;	capital o, grave accent 
+ Ó	&#211;	&Oacute;	capital o, acute accent 
+ Ô	&#212;	&Ocirc;	capital o, circumflex 
+ Õ	&#213;	&Otilde;	capital o, tilde	
+ Ö	&#214;	&Ouml;	capital o, umlaut mark	
+ Ø	&#216;	&Oslash;	capital o, slash	
+ Œ	&#338;	&OElig;	capital ligature OE 
+ ò	&#242;	&ograve;	small o, grave accent 
+ ó	&#243;	&oacute;	small o, acute accent 
+ ô	&#244;	&ocirc;	small o, circumflex accent	
+ õ	&#245;	&otilde;	small o, tilde	
+ ö	&#246;	&ouml;	small o, umlaut mark	
+ ø	&#248;	&oslash;	small o, slash	
+ œ	&#339;	&oelig;	small ligature oe 
+ Š	&#352;	&Scaron;	capital S with caron	
+ š	&#353;	&scaron;	small S with caron	
+ Ù	&#217;	&Ugrave;	capital u, grave accent 
+ Ú	&#218;	&Uacute;	capital u, acute accent 
+ Û	&#219;	&Ucirc;	capital u, circumflex 
+ Ü	&#220;	&Uuml;	capital u, umlaut mark	
+ ù	&#249;	&ugrave;	small u, grave accent 
+ ú	&#250;	&uacute;	small u, acute accent 
+ û	&#251;	&ucirc;	small u, circumflex accent	
+ ü	&#252;	&uuml;	small u, umlaut mark	
+ Ý	&#221;	&Yacute;	capital y, acute accent 
+ ý	&#253;	&yacute;	small y, acute accent 
+ Ÿ	&#376;	&Yuml;	capital Y with diaeres	
+ ÿ	&#255;	&yuml;	small y, umlaut mark	
+ Þ	&#222;	&THORN;	capital THORN, Icelandic	
+ þ	&#254;	&thorn;	small thorn, Icelandic	
+ ß	&#223;	&szlig;	small sharp s, German 
+ ç	&#231;	&ccedil;	small c, cedilla	
+ ƒ	&#402;	&fnof;	f with hook 
 
 GREEK 
- Α  &#913;  &Alpha; Alpha 
- Β  &#914;  &Beta;  Beta  
- Γ  &#915;  &Gamma; Gamma 
- Δ  &#916;  &Delta; Delta 
- Ε  &#917;  &Epsilon; Epsilon 
- Ζ  &#918;  &Zeta;  Zeta  
- Η  &#919;  &Eta; Eta 
- Θ  &#920;  &Theta; Theta 
- Ι  &#921;  &Iota;  Iota  
- Κ  &#922;  &Kappa; Kappa 
- Λ  &#923;  &Lambda;  Lambda  
- Μ  &#924;  &Mu;  Mu  
- Ν  &#925;  &Nu;  Nu  
- Ξ  &#926;  &Xi;  Xi  
- Ο  &#927;  &Omicron; Omicron 
- Π  &#928;  &Pi;  Pi  
- Ρ  &#929;  &Rho; Rho 
- Σ  &#931;  &Sigma; Sigma 
- Τ  &#932;  &Tau; Tau 
- Υ  &#933;  &Upsilon; Upsilon 
- Φ  &#934;  &Phi; Phi 
- Χ  &#935;  &Chi; Chi 
- Ψ  &#936;  &Psi; Psi 
- Ω  &#937;  &Omega; Omega            
- α  &#945;  &alpha; alpha 
- β  &#946;  &beta;  beta  
- γ  &#947;  &gamma; gamma 
- δ  &#948;  &delta; delta 
- ε  &#949;  &epsilon; epsilon 
- ζ  &#950;  &zeta;  zeta  
- η  &#951;  &eta; eta 
- θ  &#952;  &theta; theta 
- ι  &#953;  &iota;  iota  
- κ  &#954;  &kappa; kappa 
- λ  &#955;  &lambda;  lambda  
- μ  &#956;  &mu;  mu  
- ν  &#957;  &nu;  nu  
- ξ  &#958;  &xi;  xi  
- ο  &#959;  &omicron; omicron 
- π  &#960;  &pi;  pi  
- ρ  &#961;  &rho; rho 
- ς  &#962;  &sigmaf;  sigmaf  
- σ  &#963;  &sigma; sigma 
- τ  &#964;  &tau; tau 
- υ  &#965;  &upsilon; upsilon 
- φ  &#966;  &phi; phi 
- χ  &#967;  &chi; chi 
- ψ  &#968;  &psi; psi 
- ω  &#969;  &omega; omega 
+ Α 	&#913;	&Alpha;	Alpha 
+ Β 	&#914;	&Beta;	Beta	
+ Γ 	&#915;	&Gamma;	Gamma 
+ Δ 	&#916;	&Delta;	Delta 
+ Ε 	&#917;	&Epsilon;	Epsilon 
+ Ζ 	&#918;	&Zeta;	Zeta	
+ Η 	&#919;	&Eta;	Eta 
+ Θ 	&#920;	&Theta;	Theta 
+ Ι	&#921;	&Iota;	Iota	
+ Κ	&#922;	&Kappa;	Kappa 
+ Λ	&#923;	&Lambda;	Lambda	
+ Μ	&#924;	&Mu;	Mu	
+ Ν	&#925;	&Nu;	Nu	
+ Ξ	&#926;	&Xi;	Xi	
+ Ο	&#927;	&Omicron;	Omicron 
+ Π	&#928;	&Pi;	Pi	
+ Ρ	&#929;	&Rho;	Rho 
+ Σ	&#931;	&Sigma;	Sigma 
+ Τ	&#932;	&Tau;	Tau 
+ Υ	&#933;	&Upsilon;	Upsilon 
+ Φ	&#934;	&Phi;	Phi 
+ Χ	&#935;	&Chi;	Chi 
+ Ψ	&#936;	&Psi;	Psi 
+ Ω	&#937;	&Omega;	Omega	  	 	 	
+ α	&#945;	&alpha;	alpha 
+ β	&#946;	&beta;	beta	
+ γ	&#947;	&gamma;	gamma 
+ δ	&#948;	&delta;	delta 
+ ε	&#949;	&epsilon;	epsilon 
+ ζ	&#950;	&zeta;	zeta	
+ η	&#951;	&eta;	eta 
+ θ	&#952;	&theta;	theta 
+ ι	&#953;	&iota;	iota	
+ κ	&#954;	&kappa;	kappa 
+ λ	&#955;	&lambda;	lambda	
+ μ	&#956;	&mu;	mu	
+ ν	&#957;	&nu;	nu	
+ ξ	&#958;	&xi;	xi	
+ ο	&#959;	&omicron;	omicron 
+ π	&#960;	&pi;	pi	
+ ρ	&#961;	&rho;	rho 
+ ς	&#962;	&sigmaf;	sigmaf	
+ σ	&#963;	&sigma;	sigma 
+ τ	&#964;	&tau;	tau 
+ υ	&#965;	&upsilon;	upsilon 
+ φ	&#966;	&phi;	phi 
+ χ	&#967;	&chi;	chi 
+ ψ	&#968;	&psi;	psi 
+ ω	&#969;	&omega;	omega 
+ 
+ EXTENDEDA
+Ā	&#256	&Amacr;	LATIN CAPITAL LETTER A WITH MACRON
+ā	&#257	&amacr;	LATIN SMALL LETTER A WITH MACRON
+Ă	&#258	&Abreve;	LATIN CAPITAL LETTER A WITH BREVE
+ă	&#259	&abreve;	LATIN SMALL LETTER A WITH BREVE
+Ą	&#260	&Aogon;	LATIN CAPITAL LETTER A WITH OGONEK
+ą	&#261	&aogon;	LATIN SMALL LETTER A WITH OGONEK
+Ć	&#262	&Cacute;	LATIN CAPITAL LETTER C WITH ACUTE
+ć	&#263	&cacute;	LATIN SMALL LETTER C WITH ACUTE
+Ĉ	&#264	&Ccirc;	LATIN CAPITAL LETTER C WITH CIRCUMFLEX
+ĉ	&#265	&ccirc;	LATIN SMALL LETTER C WITH CIRCUMFLEX
+Ċ	&#266	&Cdod;	LATIN CAPITAL LETTER C WITH DOT ABOVE
+ċ	&#267	&cdot;	LATIN SMALL LETTER C WITH DOT ABOVE
+Č	&#268	&Ccaron;	LATIN CAPITAL LETTER C WITH CARON
+č	&#269	&ccaron;	LATIN SMALL LETTER C WITH CARON
+Ď	&#270	&Dcaron;	LATIN CAPITAL LETTER D WITH CARON
+ď	&#271	&dcaron;	LATIN SMALL LETTER D WITH CARON
+Đ	&#272	&Dstrok;	LATIN CAPITAL LETTER D WITH STROKE
+đ	&#273	&dstrok;	LATIN SMALL LETTER D WITH STROKE
+Ē	&#274	&Emacr;	LATIN CAPITAL LETTER E WITH MACRON
+ē	&#275	&emacr;	LATIN SMALL LETTER E WITH MACRON
+Ĕ	&#276		LATIN CAPITAL LETTER E WITH BREVE
+ĕ	&#277		LATIN SMALL LETTER E WITH BREVE
+Ė	&#278	&Edot;	LATIN CAPITAL LETTER E WITH DOT ABOVE
+ė	&#279	&edot;	LATIN SMALL LETTER E WITH DOT ABOVE
+Ę	&#280	&Eogon;	LATIN CAPITAL LETTER E WITH OGONEK
+ę	&#281	&eogon;	LATIN SMALL LETTER E WITH OGONEK
+Ě	&#282	&Ecaron;	LATIN CAPITAL LETTER E WITH CARON
+ě	&#283	&ecaron;	LATIN SMALL LETTER E WITH CARON
+Ĝ	&#284	&Gcirc;	LATIN CAPITAL LETTER G WITH CIRCUMFLEX
+ĝ	&#285	&gcirc;	LATIN SMALL LETTER G WITH CIRCUMFLEX
+Ğ	&#286	&Gbreve;	LATIN CAPITAL LETTER G WITH BREVE
+ğ	&#287	&gbreve;	LATIN SMALL LETTER G WITH BREVE
+Ġ	&#288	&GDot;	LATIN CAPITAL LETTER G WITH DOT ABOVE
+ġ	&#289	&gdot;	LATIN SMALL LETTER G WITH DOT ABOVE
+Ģ	&#290	&Gcedil;	LATIN CAPITAL LETTER G WITH CEDILLA
+ģ	&#291	&gcedil;	LATIN SMALL LETTER G WITH CEDILLA
+Ĥ	&#292	&Hcirc;	LATIN CAPITAL LETTER H WITH CIRCUMFLEX
+ĥ	&#293	&hcirc;	LATIN SMALL LETTER H WITH CIRCUMFLEX
+Ħ	&#294	&Hstrok;	LATIN CAPITAL LETTER H WITH STROKE
+ħ	&#295	&hstrok;	LATIN SMALL LETTER H WITH STROKE
+Ĩ	&#296	&Itilde;	LATIN CAPITAL LETTER I WITH TILDE
+ĩ	&#297	&itilde;	LATIN SMALL LETTER I WITH TILDE
+Ī	&#298	&Imacr;	LATIN CAPITAL LETTER I WITH MACRON
+ī	&#299	&imacr;	LATIN SMALL LETTER I WITH MACRON
+Ĭ	&#300		LATIN CAPITAL LETTER I WITH BREVE
+ĭ	&#301		LATIN SMALL LETTER I WITH BREVE
+Į	&#302	&Iogon;	LATIN CAPITAL LETTER I WITH OGONEK
+į	&#303	&iogon;	LATIN SMALL LETTER I WITH OGONEK
+İ	&#304	&Idot;	LATIN CAPITAL LETTER I WITH DOT ABOVE
+ı	&#305	&inodot;	LATIN SMALL LETTER DOTLESS I
+Ĳ	&#306	&IJlog;	LATIN CAPITAL LIGATURE IJ
+ĳ	&#307	&ijlig;	LATIN SMALL LIGATURE IJ
+Ĵ	&#308	&Jcirc;	LATIN CAPITAL LETTER J WITH CIRCUMFLEX
+ĵ	&#309	&jcirc;	LATIN SMALL LETTER J WITH CIRCUMFLEX
+Ķ	&#310	&Kcedil;	LATIN CAPITAL LETTER K WITH CEDILLA
+ķ	&#311	&kcedli;	LATIN SMALL LETTER K WITH CEDILLA
+ĸ	&#312	&kgreen;	LATIN SMALL LETTER KRA
+Ĺ	&#313	&Lacute;	LATIN CAPITAL LETTER L WITH ACUTE
+ĺ	&#314	&lacute;	LATIN SMALL LETTER L WITH ACUTE
+Ļ	&#315	&Lcedil;	LATIN CAPITAL LETTER L WITH CEDILLA
+ļ	&#316	&lcedil;	LATIN SMALL LETTER L WITH CEDILLA
+Ľ	&#317	&Lcaron;	LATIN CAPITAL LETTER L WITH CARON
+ľ	&#318	&lcaron;	LATIN SMALL LETTER L WITH CARON
+Ŀ	&#319	&Lmodot;	LATIN CAPITAL LETTER L WITH MIDDLE DOT
+ŀ	&#320	&lmidot;	LATIN SMALL LETTER L WITH MIDDLE DOT
+Ł	&#321	&Lstrok;	LATIN CAPITAL LETTER L WITH STROKE
+ł	&#322	&lstrok;	LATIN SMALL LETTER L WITH STROKE
+Ń	&#323	&Nacute;	LATIN CAPITAL LETTER N WITH ACUTE
+ń	&#324	&nacute;	LATIN SMALL LETTER N WITH ACUTE
+Ņ	&#325	&Ncedil;	LATIN CAPITAL LETTER N WITH CEDILLA
+ņ	&#326	&ncedil;	LATIN SMALL LETTER N WITH CEDILLA
+Ň	&#327	&Ncaron;	LATIN CAPITAL LETTER N WITH CARON
+ň	&#328	&ncaron;	LATIN SMALL LETTER N WITH CARON
+ŉ	&#329	&napos;	LATIN SMALL LETTER N PRECEDED BY APOSTROPHE
+Ŋ	&#330	&ENG;	LATIN CAPITAL LETTER ENG
+ŋ	&#331	&eng;	LATIN SMALL LETTER ENG
+Ō	&#332	&Omacr;	LATIN CAPITAL LETTER O WITH MACRON
+ō	&#333	&omacr;	LATIN SMALL LETTER O WITH MACRON
+Ŏ	&#334		LATIN CAPITAL LETTER O WITH BREVE
+ŏ	&#335		LATIN SMALL LETTER O WITH BREVE
+Ő	&#336	&Odblac;	LATIN CAPITAL LETTER O WITH DOUBLE ACUTE
+ő	&#337	&odblac;	LATIN SMALL LETTER O WITH DOUBLE ACUTE
+Œ	&#338	&OElig;	LATIN CAPITAL LIGATURE OE
+œ	&#339	&oelig;	LATIN SMALL LIGATURE OE
+Ŕ	&#340	&Racute;	LATIN CAPITAL LETTER R WITH ACUTE
+ŕ	&#341	&racute;	LATIN SMALL LETTER R WITH ACUTE
+Ŗ	&#342	&Rcedil;	LATIN CAPITAL LETTER R WITH CEDILLA
+ŗ	&#343	&rcedil;	LATIN SMALL LETTER R WITH CEDILLA
+Ř	&#344	&Rcaron;	LATIN CAPITAL LETTER R WITH CARON
+ř	&#345	&rcaron;	LATIN SMALL LETTER R WITH CARON
+Ś	&#346	&Sacute;	LATIN CAPITAL LETTER S WITH ACUTE
+ś	&#347	&sacute;	LATIN SMALL LETTER S WITH ACUTE
+Ŝ	&#348	&Scirc;	LATIN CAPITAL LETTER S WITH CIRCUMFLEX
+ŝ	&#349	&scirc;	LATIN SMALL LETTER S WITH CIRCUMFLEX
+Ş	&#350	&Scedil;	LATIN CAPITAL LETTER S WITH CEDILLA
+ş	&#351	&scedil;	LATIN SMALL LETTER S WITH CEDILLA
+Š	&#352	&Scaron;	LATIN CAPITAL LETTER S WITH CARON
+š	&#353	&scaron;	LATIN SMALL LETTER S WITH CARON
+Ţ	&#354	&Tcedil;	LATIN CAPITAL LETTER T WITH CEDILLA
+ţ	&#355	&tcedil;	LATIN SMALL LETTER T WITH CEDILLA
+Ť	&#356	&Tcaron;	LATIN CAPITAL LETTER T WITH CARON
+ť	&#357	&tcaron;	LATIN SMALL LETTER T WITH CARON
+Ŧ	&#358	&Tstrok;	LATIN CAPITAL LETTER T WITH STROKE
+ŧ	&#359	&tstrok;	LATIN SMALL LETTER T WITH STROKE
+Ũ	&#360	&Utilde;	LATIN CAPITAL LETTER U WITH TILDE
+ũ	&#361	&utilde;	LATIN SMALL LETTER U WITH TILDE
+Ū	&#362	&Umacr;	LATIN CAPITAL LETTER U WITH MACRON
+ū	&#363	&umacr;	LATIN SMALL LETTER U WITH MACRON
+Ŭ	&#364	&Ubreve;	LATIN CAPITAL LETTER U WITH BREVE
+ŭ	&#365	&ubeve;	LATIN SMALL LETTER U WITH BREVE
+Ů	&#366	&Uring;	LATIN CAPITAL LETTER U WITH RING ABOVE
+ů	&#367	&uring;	LATIN SMALL LETTER U WITH RING ABOVE
+Ű	&#368	&Udblac;	LATIN CAPITAL LETTER U WITH DOUBLE ACUTE
+ű	&#369	&udblac;	LATIN SMALL LETTER U WITH DOUBLE ACUTE
+Ų	&#370	&Uogon;	LATIN CAPITAL LETTER U WITH OGONEK
+ų	&#371	&uogon;	LATIN SMALL LETTER U WITH OGONEK
+Ŵ	&#372	&Wcirc;	LATIN CAPITAL LETTER W WITH CIRCUMFLEX
+ŵ	&#373	&wcirc;	LATIN SMALL LETTER W WITH CIRCUMFLEX
+Ŷ	&#374	&Ycirc;	LATIN CAPITAL LETTER Y WITH CIRCUMFLEX
+ŷ	&#375	&ycirc;	LATIN SMALL LETTER Y WITH CIRCUMFLEX
+Ÿ	&#376	&Yuml;	LATIN CAPITAL LETTER Y WITH DIAERESIS
+Ź	&#377	&Zacute;	LATIN CAPITAL LETTER Z WITH ACUTE
+ź	&#378	&zacute;	LATIN SMALL LETTER Z WITH ACUTE
+Ż	&#379	&Zdot;	LATIN CAPITAL LETTER Z WITH DOT ABOVE
+ż	&#380	&zdot;	LATIN SMALL LETTER Z WITH DOT ABOVE
+Ž	&#381	&Zcaron;	LATIN CAPITAL LETTER Z WITH CARON
+ž	&#382	&Zcaron;	LATIN SMALL LETTER Z WITH CARON
+ſ	&#383		LATIN SMALL LETTER LONG S
+
+EXTENDEDB
+ƀ	&#384		LATIN SMALL LETTER B WITH STROKE
+Ɓ	&#385		LATIN CAPITAL LETTER B WITH HOOK
+Ƃ	&#386		LATIN CAPITAL LETTER B WITH TOPBAR
+ƃ	&#387		LATIN SMALL LETTER B WITH TOPBAR
+Ƅ	&#388		LATIN CAPITAL LETTER TONE SIX
+ƅ	&#389		LATIN SMALL LETTER TONE SIX
+Ɔ	&#390		LATIN CAPITAL LETTER OPEN O
+Ƈ	&#391		LATIN CAPITAL LETTER C WITH HOOK
+ƈ	&#392		LATIN SMALL LETTER C WITH HOOK
+Ɖ	&#393		LATIN CAPITAL LETTER AFRICAN D
+Ɗ	&#394		LATIN CAPITAL LETTER D WITH HOOK
+Ƌ	&#395		LATIN CAPITAL LETTER D WITH TOPBAR
+ƌ	&#396		LATIN SMALL LETTER D WITH TOPBAR
+ƍ	&#397		LATIN SMALL LETTER TURNED DELTA
+Ǝ	&#398		LATIN CAPITAL LETTER REVERSED E
+Ə	&#399		LATIN CAPITAL LETTER SCHWA
+Ɛ	&#400		LATIN CAPITAL LETTER OPEN E
+Ƒ	&#401		LATIN CAPITAL LETTER F WITH HOOK
+ƒ	&#402	&fnof;	LATIN SMALL LETTER F WITH HOOK
+Ɠ	&#403		LATIN CAPITAL LETTER G WITH HOOK
+Ɣ	&#404		LATIN CAPITAL LETTER GAMMA
+ƕ	&#405		LATIN SMALL LETTER HV
+Ɩ	&#406		LATIN CAPITAL LETTER IOTA
+Ɨ	&#407		LATIN CAPITAL LETTER I WITH STROKE
+Ƙ	&#408		LATIN CAPITAL LETTER K WITH HOOK
+ƙ	&#409		LATIN SMALL LETTER K WITH HOOK
+ƚ	&#410		LATIN SMALL LETTER L WITH BAR
+ƛ	&#411		LATIN SMALL LETTER LAMBDA WITH STROKE
+Ɯ	&#412		LATIN CAPITAL LETTER TURNED M
+Ɲ	&#413		LATIN CAPITAL LETTER N WITH LEFT HOOK
+ƞ	&#414		LATIN SMALL LETTER N WITH LONG RIGHT LEG
+Ɵ	&#415		LATIN CAPITAL LETTER O WITH MIDDLE TILDE
+Ơ	&#416		LATIN CAPITAL LETTER O WITH HORN
+ơ	&#417		LATIN SMALL LETTER O WITH HORN
+Ƣ	&#418		LATIN CAPITAL LETTER OI
+ƣ	&#419		LATIN SMALL LETTER OI
+Ƥ	&#420		LATIN CAPITAL LETTER P WITH HOOK
+ƥ	&#421		LATIN SMALL LETTER P WITH HOOK
+Ʀ	&#422		LATIN LETTER YR
+Ƨ	&#423		LATIN CAPITAL LETTER TONE TWO
+ƨ	&#424		LATIN SMALL LETTER TONE TWO
+Ʃ	&#425		LATIN CAPITAL LETTER ESH
+ƪ	&#426		LATIN LETTER REVERSED ESH LOOP
+ƫ	&#427		LATIN SMALL LETTER T WITH PALATAL HOOK
+Ƭ	&#428		LATIN CAPITAL LETTER T WITH HOOK
+ƭ	&#429		LATIN SMALL LETTER T WITH HOOK
+Ʈ	&#430		LATIN CAPITAL LETTER T WITH RETROFLEX HOOK
+Ư	&#431		LATIN CAPITAL LETTER U WITH HORN
+ư	&#432		LATIN SMALL LETTER U WITH HORN
+Ʊ	&#433		LATIN CAPITAL LETTER UPSILON
+Ʋ	&#434		LATIN CAPITAL LETTER V WITH HOOK
+Ƴ	&#435		LATIN CAPITAL LETTER Y WITH HOOK
+ƴ	&#436		LATIN SMALL LETTER Y WITH HOOK
+Ƶ	&#437	&imped;	LATIN CAPITAL LETTER Z WITH STROKE
+ƶ	&#438		LATIN SMALL LETTER Z WITH STROKE
+Ʒ	&#439		LATIN CAPITAL LETTER EZH
+Ƹ	&#440		LATIN CAPITAL LETTER EZH REVERSED
+ƹ	&#441		LATIN SMALL LETTER EZH REVERSED
+ƺ	&#442		LATIN SMALL LETTER EZH WITH TAIL
+ƻ	&#443		LATIN LETTER TWO WITH STROKE
+Ƽ	&#444		LATIN CAPITAL LETTER TONE FIVE
+ƽ	&#445		LATIN SMALL LETTER TONE FIVE
+ƾ	&#446		LATIN LETTER INVERTED GLOTTAL STOP WITH STROKE
+ƿ	&#447		LATIN LETTER WYNN
+ǀ	&#448		LATIN LETTER DENTAL CLICK
+ǁ	&#449		LATIN LETTER LATERAL CLICK
+ǂ	&#450		LATIN LETTER ALVEOLAR CLICK
+ǃ	&#451		LATIN LETTER RETROFLEX CLICK
+Ǆ	&#452		LATIN CAPITAL LETTER DZ WITH CARON
+ǅ	&#453		LATIN CAPITAL LETTER D WITH SMALL LETTER Z WITH CARON
+ǆ	&#454		LATIN SMALL LETTER DZ WITH CARON
+Ǉ	&#455		LATIN CAPITAL LETTER LJ
+ǈ	&#456		LATIN CAPITAL LETTER L WITH SMALL LETTER J
+ǉ	&#457		LATIN SMALL LETTER LJ
+Ǌ	&#458		LATIN CAPITAL LETTER NJ
+ǋ	&#459		LATIN CAPITAL LETTER N WITH SMALL LETTER J
+ǌ	&#460		LATIN SMALL LETTER NJ
+Ǎ	&#461		LATIN CAPITAL LETTER A WITH CARON
+ǎ	&#462		LATIN SMALL LETTER A WITH CARON
+Ǐ	&#463		LATIN CAPITAL LETTER I WITH CARON
+ǐ	&#464		LATIN SMALL LETTER I WITH CARON
+Ǒ	&#465		LATIN CAPITAL LETTER O WITH CARON
+ǒ	&#466		LATIN SMALL LETTER O WITH CARON
+Ǔ	&#467		LATIN CAPITAL LETTER U WITH CARON
+ǔ	&#468		LATIN SMALL LETTER U WITH CARON
+Ǖ	&#469		LATIN CAPITAL LETTER U WITH DIAERESIS AND MACRON
+ǖ	&#470		LATIN SMALL LETTER U WITH DIAERESIS AND MACRON
+Ǘ	&#471		LATIN CAPITAL LETTER U WITH DIAERESIS AND ACUTE
+ǘ	&#472		LATIN SMALL LETTER U WITH DIAERESIS AND ACUTE
+Ǚ	&#473		LATIN CAPITAL LETTER U WITH DIAERESIS AND CARON
+ǚ	&#474		LATIN SMALL LETTER U WITH DIAERESIS AND CARON
+Ǜ	&#475		LATIN CAPITAL LETTER U WITH DIAERESIS AND GRAVE
+ǜ	&#476		LATIN SMALL LETTER U WITH DIAERESIS AND GRAVE
+ǝ	&#477		LATIN SMALL LETTER TURNED E
+Ǟ	&#478		LATIN CAPITAL LETTER A WITH DIAERESIS AND MACRON
+ǟ	&#479		LATIN SMALL LETTER A WITH DIAERESIS AND MACRON
+Ǡ	&#480		LATIN CAPITAL LETTER A WITH DOT ABOVE AND MACRON
+ǡ	&#481		LATIN SMALL LETTER A WITH DOT ABOVE AND MACRON
+Ǣ	&#482		LATIN CAPITAL LETTER AE WITH MACRON
+ǣ	&#483		LATIN SMALL LETTER AE WITH MACRON
+Ǥ	&#484		LATIN CAPITAL LETTER G WITH STROKE
+ǥ	&#485		LATIN SMALL LETTER G WITH STROKE
+Ǧ	&#486		LATIN CAPITAL LETTER G WITH CARON
+ǧ	&#487		LATIN SMALL LETTER G WITH CARON
+Ǩ	&#488		LATIN CAPITAL LETTER K WITH CARON
+ǩ	&#489		LATIN SMALL LETTER K WITH CARON
+Ǫ	&#490		LATIN CAPITAL LETTER O WITH OGONEK
+ǫ	&#491		LATIN SMALL LETTER O WITH OGONEK
+Ǭ	&#492		LATIN CAPITAL LETTER O WITH OGONEK AND MACRON
+ǭ	&#493		LATIN SMALL LETTER O WITH OGONEK AND MACRON
+Ǯ	&#494		LATIN CAPITAL LETTER EZH WITH CARON
+ǯ	&#495		LATIN SMALL LETTER EZH WITH CARON
+ǰ	&#496		LATIN SMALL LETTER J WITH CARON
+Ǳ	&#497		LATIN CAPITAL LETTER DZ
+ǲ	&#498		LATIN CAPITAL LETTER D WITH SMALL LETTER Z
+ǳ	&#499		LATIN SMALL LETTER DZ
+Ǵ	&#500		LATIN CAPITAL LETTER G WITH ACUTE
+ǵ	&#501	&gacute;	LATIN SMALL LETTER G WITH ACUTE
+Ƕ	&#502		LATIN CAPITAL LETTER HWAIR
+Ƿ	&#503		LATIN CAPITAL LETTER WYNN
+Ǹ	&#504		LATIN CAPITAL LETTER N WITH GRAVE
+ǹ	&#505		LATIN SMALL LETTER N WITH GRAVE
+Ǻ	&#506		LATIN CAPITAL LETTER A WITH RING ABOVE AND ACUTE
+ǻ	&#507		LATIN SMALL LETTER A WITH RING ABOVE AND ACUTE
+Ǽ	&#508		LATIN CAPITAL LETTER AE WITH ACUTE
+ǽ	&#509		LATIN SMALL LETTER AE WITH ACUTE
+Ǿ	&#510		LATIN CAPITAL LETTER O WITH STROKE AND ACUTE
+ǿ	&#511		LATIN SMALL LETTER O WITH STROKE AND ACUTE
+Ȁ	&#512		LATIN CAPITAL LETTER A WITH DOUBLE GRAVE
+ȁ	&#513		LATIN SMALL LETTER A WITH DOUBLE GRAVE
+Ȃ	&#514		LATIN CAPITAL LETTER A WITH INVERTED BREVE
+ȃ	&#515		LATIN SMALL LETTER A WITH INVERTED BREVE
+Ȅ	&#516		LATIN CAPITAL LETTER E WITH DOUBLE GRAVE
+ȅ	&#517		LATIN SMALL LETTER E WITH DOUBLE GRAVE
+Ȇ	&#518		LATIN CAPITAL LETTER E WITH INVERTED BREVE
+ȇ	&#519		LATIN SMALL LETTER E WITH INVERTED BREVE
+Ȉ	&#520		LATIN CAPITAL LETTER I WITH DOUBLE GRAVE
+ȉ	&#521		LATIN SMALL LETTER I WITH DOUBLE GRAVE
+Ȋ	&#522		LATIN CAPITAL LETTER I WITH INVERTED BREVE
+ȋ	&#523		LATIN SMALL LETTER I WITH INVERTED BREVE
+Ȍ	&#524		LATIN CAPITAL LETTER O WITH DOUBLE GRAVE
+ȍ	&#525		LATIN SMALL LETTER O WITH DOUBLE GRAVE
+Ȏ	&#526		LATIN CAPITAL LETTER O WITH INVERTED BREVE
+ȏ	&#527		LATIN SMALL LETTER O WITH INVERTED BREVE
+Ȑ	&#528		LATIN CAPITAL LETTER R WITH DOUBLE GRAVE
+ȑ	&#529		LATIN SMALL LETTER R WITH DOUBLE GRAVE
+Ȓ	&#530		LATIN CAPITAL LETTER R WITH INVERTED BREVE
+ȓ	&#531		LATIN SMALL LETTER R WITH INVERTED BREVE
+Ȕ	&#532		LATIN CAPITAL LETTER U WITH DOUBLE GRAVE
+ȕ	&#533		LATIN SMALL LETTER U WITH DOUBLE GRAVE
+Ȗ	&#534		LATIN CAPITAL LETTER U WITH INVERTED BREVE
+ȗ	&#535		LATIN SMALL LETTER U WITH INVERTED BREVE
+Ș	&#536		LATIN CAPITAL LETTER S WITH COMMA BELOW
+ș	&#537		LATIN SMALL LETTER S WITH COMMA BELOW
+Ț	&#538		LATIN CAPITAL LETTER T WITH COMMA BELOW
+ț	&#539		LATIN SMALL LETTER T WITH COMMA BELOW
+Ȝ	&#540		LATIN CAPITAL LETTER YOGH
+ȝ	&#541		LATIN SMALL LETTER YOGH
+Ȟ	&#542		LATIN CAPITAL LETTER H WITH CARON
+ȟ	&#543		LATIN SMALL LETTER H WITH CARON
+Ƞ	&#544		LATIN CAPITAL LETTER N WITH LONG RIGHT LEG
+ȡ	&#545		LATIN SMALL LETTER D WITH CURL
+Ȣ	&#546		LATIN CAPITAL LETTER OU
+ȣ	&#547		LATIN SMALL LETTER OU
+Ȥ	&#548		LATIN CAPITAL LETTER Z WITH HOOK
+ȥ	&#549		LATIN SMALL LETTER Z WITH HOOK
+Ȧ	&#550		LATIN CAPITAL LETTER A WITH DOT ABOVE
+ȧ	&#551		LATIN SMALL LETTER A WITH DOT ABOVE
+Ȩ	&#552		LATIN CAPITAL LETTER E WITH CEDILLA
+ȩ	&#553		LATIN SMALL LETTER E WITH CEDILLA
+Ȫ	&#554		LATIN CAPITAL LETTER O WITH DIAERESIS AND MACRON
+ȫ	&#555		LATIN SMALL LETTER O WITH DIAERESIS AND MACRON
+Ȭ	&#556		LATIN CAPITAL LETTER O WITH TILDE AND MACRON
+ȭ	&#557		LATIN SMALL LETTER O WITH TILDE AND MACRON
+Ȯ	&#558		LATIN CAPITAL LETTER O WITH DOT ABOVE
+ȯ	&#559		LATIN SMALL LETTER O WITH DOT ABOVE
+Ȱ	&#560		LATIN CAPITAL LETTER O WITH DOT ABOVE AND MACRON
+ȱ	&#561		LATIN SMALL LETTER O WITH DOT ABOVE AND MACRON
+Ȳ	&#562		LATIN CAPITAL LETTER Y WITH MACRON
+ȳ	&#563		LATIN SMALL LETTER Y WITH MACRON
+ȴ	&#564		LATIN SMALL LETTER L WITH CURL
+ȵ	&#565		LATIN SMALL LETTER N WITH CURL
+ȶ	&#566		LATIN SMALL LETTER T WITH CURL
+ȷ	&#567	&jmath;	LATIN SMALL LETTER DOTLESS J
+ȸ	&#568		LATIN SMALL LETTER DB DIGRAPH
+ȹ	&#569		LATIN SMALL LETTER QP DIGRAPH
+Ⱥ	&#570		LATIN CAPITAL LETTER A WITH STROKE
+Ȼ	&#571		LATIN CAPITAL LETTER C WITH STROKE
+ȼ	&#572		LATIN SMALL LETTER C WITH STROKE
+Ƚ	&#573		LATIN CAPITAL LETTER L WITH BAR
+Ⱦ	&#574		LATIN CAPITAL LETTER T WITH DIAGONAL STROKE
+ȿ	&#575		LATIN SMALL LETTER S WITH SWASH TAIL
+ɀ	&#576		LATIN SMALL LETTER Z WITH SWASH TAIL
+Ɂ	&#577		LATIN CAPITAL LETTER GLOTTAL STOP
+ɂ	&#578		LATIN SMALL LETTER GLOTTAL STOP
+Ƀ	&#579		LATIN CAPITAL LETTER B WITH STROKE
+Ʉ	&#580		LATIN CAPITAL LETTER U BAR
+Ʌ	&#581		LATIN CAPITAL LETTER TURNED V
+Ɇ	&#582		LATIN CAPITAL LETTER E WITH STROKE
+ɇ	&#583		LATIN SMALL LETTER E WITH STROKE
+Ɉ	&#584		LATIN CAPITAL LETTER J WITH STROKE
+ɉ	&#585		LATIN SMALL LETTER J WITH STROKE
+Ɋ	&#586		LATIN CAPITAL LETTER SMALL Q WITH HOOK TAIL
+ɋ	&#587		LATIN SMALL LETTER Q WITH HOOK TAIL
+Ɍ	&#588		LATIN CAPITAL LETTER R WITH STROKE
+ɍ	&#589		LATIN SMALL LETTER R WITH STROKE
+Ɏ	&#590		LATIN CAPITAL LETTER Y WITH STROKE
+ɏ	&#591		LATIN SMALL LETTER Y WITH STROKE
