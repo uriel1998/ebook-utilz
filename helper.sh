@@ -4,10 +4,11 @@
 # <div id="" width="95%" class="center"><img width="95%" src="images/9780983263111.png" alt="divider"/></div>
 # set div width, then img width is to the div!
 
+
 #base html document for OEPBS files
 base="/home/USER/base.html"
 
-echo "What is this run for? [i]nitial, [c]ontent.opf, [t]oc.ncx, [s]pecial (e.g. TOC), [Q]uit?"
+echo "What is this run for? [i]nitial, [c]ontent.opf, [t]oc.ncx, [s]pecial (e.g. TOC), [b]yline TOC, or [Q]uit?"
 echo "You are currently in $PWD,"
 echo "which should be your OEPBS directory."
 read option
@@ -68,6 +69,22 @@ case "$option" in
 		echo '		<item id="a_0'$b'" href="'$f'" media-type="application/xhtml+xml"/>' >> content.opf
 		b=$(echo "scale=0; $b+1" | bc)
 		done
+
+		# FONTS!
+		b=$(echo "1")
+		if [ -f ./*.otf ]; then
+			for f in ./*.otf; do 
+			echo '		<item id="otf_0'$b'" href="'$f'" media-type="font/opentype"/>' >> content.opf
+			b=$(echo "scale=0; $b+1" | bc)
+			done
+		fi
+		if [ -f ./*.ttf ]; then
+			b=$(echo "1")
+			for f in ./*.ttf; do 
+			echo '		<item id="ttf_0'$b'" href="'$f'" media-type="font/truetype"/>' >> content.opf
+			b=$(echo "scale=0; $b+1" | bc)
+			done
+		fi		
 	
 		# now for the images - note that the cover is accounted for here as well
 		# substitute the appropriate extension
@@ -196,6 +213,28 @@ case "$option" in
 		done
 		echo "ToC created.  Cut and paste, then delete tempfile."		
 	;;
+	[Bb]*)
+		echo "Creating ToC with bylines to be cut-and-pasted as $PWD/toc.tmp"
+		# now for the fun part... it is VITAL that the files are in the right order...
+		# numbering starts at one...
+		b=$(echo "1")
+		for f in *.html; do 
+		chaptitle=$(grep '<p class="title">' $f | awk -F ">" '{print $2}' |awk -F "<" '{print $1}')
+		chapby=$(grep '<p class="by">' $f | awk -F ">" '{print $2}' |awk -F "<" '{print $1}')
+		#errorchecking
+		if [ "$chaptitle" = "" ]; then
+			chaptitle=$(echo "$booktitle")
+		fi
+		if [ "$chapby" = "" ]; then
+			chapby=""
+		else
+			chapby=$(echo "by $chapby")
+		fi
+		echo '<p class="toc"><a href="'$f'">'$chaptitle'</a><br />'$chapby'</p>' >> toc.tmp
+		done
+		echo "ToC created.  Cut and paste, then delete tempfile."		
+	;;
+
 	# create base documents
 	[Ii]*)
 		echo "How many base documents do you wish to create in $PWD?"
